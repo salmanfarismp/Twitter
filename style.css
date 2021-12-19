@@ -1,0 +1,484 @@
+body{
+    
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    
+   
+}
+.twitter-body{
+    height: 100rem;
+    width: 100%;
+    background-color: royalblue;
+    display: flex;
+    
+}
+/*left body starting*/
+.left-main-body{
+    width: 14%;
+    height: 100vh;
+    background-color:rosybrown;
+    position: fixed;
+    
+
+}
+.left-white-icons{
+    width: 100%;
+    height: 56%;
+    background-color:black;
+    color: rgb(233, 226, 221);
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.left-white-icons-specs{
+    margin-right: 16%;
+    margin-top: 8%;
+    font-size: 1.7rem !important;  
+    
+}
+.left-blue-icons{
+    width: 100%;
+    height: 44%;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+   
+}
+#feather-img{
+    width: 3.5rem;
+    margin-top: 1rem;
+    margin-right: 1.1rem;
+
+    
+
+}
+#s-icon-img{
+    width: 2.5rem;
+    margin-right: 1.3rem;
+    margin-bottom: 2rem;
+
+}
+/*left body finished
+center body starting*/
+
+
+.center-main-body{
+    margin-left: 14%;
+    width: 48%;
+    background: black;
+    height:100rem ;
+    border-left: rgb(77, 76, 76) solid 0.05rem;
+    border-right: rgb(77, 76, 76) solid 0.05rem;
+    
+
+}
+.center-top-bar{
+    
+    color: blanchedalmond;
+    height: 3rem;
+    background-color: black;
+    width: 48%;
+    position: fixed;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0, 0, 0, 0.3));
+    backdrop-filter: blur(.5rem);
+}
+
+.center-top-bar-padding{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.center-top-bar-padding h3{
+    margin: 0;
+}
+.tweet-bar{
+    padding-top: 3rem;
+    background-color: black;
+    width: 100%;
+    height: 8rem;
+    display: flex;
+
+}
+.s-inside-tweet-bar{
+    width: 15%;
+    height: 100%;
+    background-color:black;
+
+}
+#s-main-icon-img{
+    width: 3rem;
+    margin: 1rem;
+   
+}
+.tweet-bar-write{
+    height: 100%;
+    width: 85%;
+    background-color: coral;
+    display: flex;
+    flex-direction: column;
+}
+.tweet-bar-search{
+    background-color: black;
+    height: 50%;
+    width: 100%;
+    
+    
+}
+.search{
+    padding-top: 1.4rem;
+    top: 0;
+    border: none;
+    float: left;
+   
+    font-size: 1.5rem;
+   background: transparent;
+   color: whitesmoke;
+   resize: none;
+   outline: none;
+  
+    
+}
+.tweet-bar-all-icons{
+    height: 50%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.tweet-bar-icons{
+    background-color: black;
+    height: 100%;
+    width: 40%;
+    color: dodgerblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tweet-bar-tweet-switch{
+    background-color: black;
+    height: 100%;
+    width: 60%;
+    text-align: end;
+    padding-right: 1rem;
+
+   
+
+}
+#tweet-button{
+    color: white;
+    background:rgb(17, 86, 155);
+    border: 0;
+    border-radius: 2rem;
+    font-size: 1rem;
+    padding: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 1rem;
+}
+/* end of tweet bar starting content */
+.suggetion-bar{
+    border: rgb(77, 76, 76) solid 0.05rem;
+   width: 99.9%;
+   height: 4%;
+   background-color: black;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+.suggetions{
+    border: rgb(77, 76, 76) solid 0.05rem;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    color:white;
+
+}
+.content{
+    border-bottom: rgb(77, 76, 76) solid 0.05rem;
+    width: 100%-1rem;
+    height:30rem;
+    background-color: black;
+    display: flex;
+    padding: .5rem;
+}
+
+.profile-icon{
+    height: 100%;
+    width:12%;
+    background-color: black;
+    text-align: center;
+}.profile-icon img{
+    height: 3rem;
+    border-radius: 50%;
+    
+}
+.content-space{
+    height: 100%;
+    width:88% ;
+    background-color: darkorchid;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+
+
+}
+.profile{
+    width: 100%;
+    height: 12%;
+    background: black;
+    color: white;
+    display: flex;
+    
+
+}
+.profile-main{
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+.profile h4{
+    margin: 0;
+}
+.profile-id{
+    color: gray;
+    margin: .1rem;
+}
+.more-icon {
+    width: 10%;
+    text-align: right;
+  
+}
+.content-description{
+    width: 100%;
+    height: 20%;
+    background: black;
+    color: white;
+}
+.hashtags{
+    width: 100%;
+    height: 10%;
+    background: black;
+    color: rgb(17, 86, 155);
+}
+.content-img{
+    width: 100%;
+    height: inherit;
+    background: black;
+}
+.content-img img{
+    width: 100%;
+    height: 16rem;
+    border-radius: 2rem;
+}
+.like-comment-share{
+    width: 100%;
+    height:15%;
+    background: black;
+    color: grey;
+    display: flex;
+    justify-content: space-around;
+    float: left;
+}
+
+/*center body finished
+right body starting*/
+.right-main-body{
+    width: 38%;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+}
+.right-top-bar{
+
+    
+    color: blanchedalmond;
+    height: 3rem;
+    background-color: black;
+    width: 38%;
+    position: fixed;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0, 0, 0, 0.3));
+    backdrop-filter: blur(.5rem);
+    text-align: center;
+    
+}
+.right-top-bar input{
+    margin-top: .5rem;
+    padding: .8rem;
+    width: 80%;
+    border-radius: 1rem;
+    border: 0;
+    background-color: rgba(50, 50, 66, 0.61);
+}
+.trending{
+    width: 80%;
+    height: 30rem;
+    border-radius: 1rem;
+   margin-top: 3.5rem;
+   margin-left: 3rem;
+    background-color:rgba(50, 50, 66, 0.61);
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.trending-head{
+    width: 90%;
+    margin-left: 1rem;
+    height: 3rem;
+}
+.trending-body{
+    width: 100%;
+    height:80%;
+   margin-left: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.trending-div{
+    width: 100%;
+    height: 20%;
+    
+    display: flex;
+}
+.trending-wrt{
+    width: 70%;
+    height: 100%;
+   
+    display: flex;
+    flex-direction: column;
+}
+.wrt-head{
+    width: 100%;
+    height: 30%;
+    color: darkgray;
+}
+h5{
+    margin: 0;
+margin-top: .5rem;
+}
+.wrt-body{
+    width: 100%;
+    height: 70%;
+}
+h4{
+    margin: 0;
+margin-top: .5rem;
+}
+.trending-img{
+    width: 30%;
+    height: 100%;
+    margin: auto;
+   
+}
+.trending-img img{
+    height: 90%;
+    width: 90%;
+    border-radius: 1rem;
+    border: 1rem;
+   
+    text-align: center;
+    
+}
+.div-more{
+    color:rgb(17, 86, 155) ;
+    margin: 0.5rem;
+    
+}
+.follow{
+    width: 80%;
+    height: auto;
+    border-radius: 1rem;
+   margin-top: 3.5rem;
+   margin-left: 3rem;
+    background-color:rgba(50, 50, 66, 0.61);
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+.follow-body{
+    
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.follow-div{
+    width: 100%;
+    display: flex;
+    height: 4rem;
+    
+}
+.details{
+    width: 70%;
+    height: 100%;
+    display: flex;
+
+    
+}
+.pic{
+    width: 25%;
+    height: 100%;
+}
+.pic img{
+    margin: .2rem;
+    width: 80%;
+    border-radius: 50%;
+}
+.p-name{
+width: 75%;
+height: 100%;
+
+}
+.ver{
+    display: flex;
+    
+}
+.follow-button{
+    border-radius: 1rem;
+    padding-top: .3rem;
+text-align: center;
+align-self: center;
+margin-left: 1rem;
+    width: 20%;
+    height: 50%;
+    background:white;
+    color: black;
+    
+}
+.footer{
+   margin-top: .5rem;
+   margin-left: 3rem;
+
+   
+    
+}
+.footer a{
+    text-decoration: none;
+    color: rgb(126, 123, 123);
+    font-size: 0.8rem;
+   
+}
+.footer span{
+    font-size: 0.8rem;
+}
+.footer-more-icon{
+    text-decoration: none;
+    color: rgb(126, 123, 123);
+    font-size: 0.8rem;
+
+}
+.copyright{
+    text-decoration: none;
+    color: rgb(126, 123, 123);
+    font-size: 0.8rem;
+   
+}
